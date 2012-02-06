@@ -1,0 +1,43 @@
+<macromedia-extension
+	name="Filler Text"
+	version="1.1"
+	type="Command">
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Fireworks" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the author -->
+	
+	<author name="Nathan Pitman" />
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This panel allows you to add filler text to the current document.
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	To open the Filler Text panel, choose Window > Filler Text.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="Filler Text.swf" destination="$fireworks/configuration/command panels/" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+	</configuration-changes>
+
+</macromedia-extension>

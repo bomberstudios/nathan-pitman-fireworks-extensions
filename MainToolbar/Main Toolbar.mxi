@@ -1,0 +1,44 @@
+<macromedia-extension
+	name="Main Toolbar"
+	version="1.2"
+	type="Command"
+	requires-restart = "true" >
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Fireworks" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the author -->
+	
+	<author name="Nathan Pitman" />
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This panel is a SWF command panel version of the Main Toolbar in Fireworks. It is more compact and better looking than the default Main Toolbar. Dock it above the Optimize panel for easy access.
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	To open the Main Toolbar, choose Window > Main Toolbar.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="Main Toolbar.swf" destination="$fireworks/configuration/command panels/" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+	</configuration-changes>
+
+</macromedia-extension>

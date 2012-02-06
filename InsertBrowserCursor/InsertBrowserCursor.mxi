@@ -1,0 +1,45 @@
+<macromedia-extension
+	name="Insert Browser Cursor"
+	version="1.2"
+	type="Command">
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Fireworks" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the author -->
+	
+	<author name="Nathan Pitman" />
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This command allows you to insert a 'Pointing Hand' or 'Arrow' cursor into the active document.
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	To open the New from template command, choose Commands > Insert Browser Cursor.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="cursor1.png" destination="$fireworks/configuration/commands/np_ibc/" />
+		<file name="cursor2.png" destination="$fireworks/configuration/commands/np_ibc/" />
+		<file name="Insert Browser Cursor.swf" destination="$fireworks/configuration/commands/" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+	</configuration-changes>
+
+</macromedia-extension>

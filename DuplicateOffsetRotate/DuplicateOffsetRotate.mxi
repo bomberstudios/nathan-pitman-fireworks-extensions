@@ -1,0 +1,44 @@
+<macromedia-extension
+	name="Duplicate, Offset, Rotate"
+	version="1.1"
+	type="Command"
+	requires-restart = "true" >
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Fireworks" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the author -->
+	
+	<author name="Nathan Pitman" />
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This panel allows you to Duplicate, Offset & Rotate the selected object/s in a choice of directions. Options include the ability to Group, Flatten or Distribute the end result to layers or frames.
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	To open the Duplicate, Offset & Rotate panel, choose Window > Duplicate, Offset, Rotate.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="Duplicate, Offset, Rotate.swf" destination="$fireworks/configuration/command panels/" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+	</configuration-changes>
+
+</macromedia-extension>

@@ -1,0 +1,44 @@
+<macromedia-extension
+	name="Auto Save"
+	version="0.1"
+	type="Command"
+	requires-restart = "true" >
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Fireworks" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the author -->
+	
+	<author name="Nathan Pitman / FlashGuru" />
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This panel allows you to enable or disable auto save functionality. Kudos to FlashGuru for the source code (http://www.flashguru.co.uk/000655.php).
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	To open the auto save panel, choose Window > Auto Save.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="auto save.swf" destination="$fireworks/configuration/command panels/" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+	</configuration-changes>
+
+</macromedia-extension>
